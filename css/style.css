@@ -1,0 +1,430 @@
+/*------ FONTS ------*/
+@font-face {
+   font-family: Scout;
+   src: url(../fonts/Scout/Scout-Regular.otf);
+}
+@font-face {
+   font-family: ScoutBold;
+   src: url(../fonts/Scout/Scout-Bold.otf);
+}
+@font-face {
+   font-family: ScoutExtraLight;
+   src: url(../fonts/Scout/Scout-ExtraLight.otf);
+}
+@font-face {
+   font-family: ScoutLight;
+   src: url(../fonts/Scout/Scout-Light.otf);
+}
+@font-face {
+   font-family: ScoutThin;
+   src: url(../fonts/Scout/Scout-Thin.otf);
+}
+@font-face {
+   font-family: ScoutCond;
+   src: url(../fonts/Scout/ScoutCond-Regular.otf);
+}
+.scout-regular{
+	font-family: 'Scout';
+}
+.scout-bold{
+	font-family: 'ScoutBold';
+}
+.scout-extra-light{
+	font-family: 'Scout-ExtraLight';
+}
+.scout-light{
+		font-family: 'ScoutLight';
+}
+.scout-thin{
+		font-family: 'ScoutThin';
+}
+.scout-cond{
+		font-family: 'ScoutCond';
+}
+/*------ /FONTS ------*/
+/*------ GENERAL ------*/
+*{
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Scout', sans-serif;
+    background: #fff;
+    color: #262626;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+section{
+	padding-top: 100px;
+}
+.title{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: ScoutCond;
+	font-size: 60px;
+}
+.sub-title{
+    font-size: 18px;
+    font-family: ScoutLight;
+}
+.title-image{
+	margin-left: 15px;
+	position: relative;
+	bottom: 3px;
+}
+/*------ /GENERAL ------*/
+/*------ LOADER ------*/
+#loader-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+/*------ /LOADER ------*/
+/*------ NAVBAR ------*/
+#navbar-top{
+	background-color: #262626;
+}
+#navbar-top-send-and-returns{
+	text-transform: uppercase;
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+}
+#navbar-top-list{
+	float: right;
+}
+#navbar-top-list>li{
+	text-transform: uppercase;
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+}
+.navbar-top-icon{
+	width: 25px;
+	height: auto;
+	position: relative;
+	bottom: 3px;
+}
+#customer-service-item{
+	margin-right: 15px;
+}
+#nav-divider{
+	display: inline-block;
+	background-color: #c3c3c3;
+	width: 1px;
+	height: 22px;
+	position: relative;
+	top: 5px;
+}
+#shopping-cart-item{
+	margin-left: 5px;
+	margin-right: 35px;
+}
+#shopping-cart-number{
+	font-size: 15px;
+}
+#flag-icon{
+	width: 21px;
+	height: auto;
+}
+#navbar-title{
+	text-transform: uppercase;
+	font-size: 35px;
+	margin:auto;
+}
+#navbar-sm-title{
+	position: relative;
+	top: 5px;
+	display: none;
+	text-transform: uppercase;
+	font-size: 35px;
+}
+#nav-links{
+	text-transform: uppercase;
+	font-family: ScoutCond;
+	font-size: 28px;
+}
+#navbar {
+	background-color: #ffffff;
+	border: none;
+}
+.page-scroll {
+	margin-left: 7px;
+	margin-right: 7px;
+	color: #262626 !important;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #334b67 !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #334b67 !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	border-color: #334b67;
+	color: #334b67;
+}
+/*------ /NAVBAR ------*/
+/*------ HOME SECTION ------*/
+#special-offer-row{
+	background-color: #334b67;
+	border-bottom: 4px solid #eac3d8;
+}
+#special-offer{
+	color: #fff;
+}
+#special-offer>p{
+	text-transform: uppercase;
+	margin: 3px 0;
+}
+#special-offer>p>a{
+	color: #fff;
+	text-transform: capitalize;
+	font-family: ScoutExtraLight;
+}
+#special-offer>p>a:hover{
+	color: #d0d0d0;
+}
+#home-section{
+	margin-top: 28px;
+}
+/* silder */
+#slider-div{
+	padding: 0;
+    background-color: #ddd;
+}
+.rslides_nav{
+	display: block;
+    font-size: 40px;
+    font-weight: 800;
+    color: #262626 !important;
+	z-index: 2;
+}
+.rslides_nav:hover{
+    color: #d0d0d0 !important;
+}
+.rslides_nav.prev{
+	position: absolute;
+	top: 50%;
+	left: 10px;
+}
+.rslides_nav.next{
+	position: absolute;
+	top: 50%;
+	right: 10px;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+  .slider-item{
+	  height: 600px;
+	  background-size: cover;
+	  background-position: center center;
+	  background-repeat: no-repeat;
+  }
+  #slider-item-1{
+	  background-image: url("../img/slider/slider1.jpg");
+  }
+  #slider-item-2{
+	 background-image: url("../img/slider/slider2.jpg");
+  }
+  #slider-item-3{
+	 background-image: url("../img/slider/slider3.jpg");
+  }
+ /* /slider */
+/*------ /HOME SECTION ------*/
+/*------ MUJER SECTION ------*/
+.product-text{
+    text-align: center;
+}
+.product-title{
+    font-family: ScoutBold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.product-description{
+    font-family: Scout;
+    text-transform: capitalize;
+}
+#big-female-watch-photo{
+    margin: 35px auto 0 auto;
+    height: 280px;
+}
+/*------ /MUJER SECTION ------*/
+/*------ RELOJES SECTION ------*/
+.promo-watch-photo{
+    margin:auto;
+}
+.big-promo-photo-containter{
+    padding: 0;
+}
+/*------ /RELOJES SECTION ------*/
+/*------ SOCIAL MEDIA SECTION ------*/
+#solcial-media-section-title{
+    margin-bottom: 0;
+}
+.social-media-photo{
+    margin: auto;
+}
+#social-media-separator{
+    border-top: 1px solid #888888;
+}
+#solcial-media-section-second-title{
+    margin-bottom: 0;
+}
+.title-small{
+    font-size: 25px;
+}
+#social-media-description{
+    padding: 0 40px;
+}
+#social-media-icons-div{
+    background-color: #262626;
+    margin-top: 20px;
+}
+#icons-list{
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+.icon-item{
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 10px;
+}
+/*------ /SOCIAL MEDIA SECTION ------*/
+/*------ ATENCION AL CLIENTE SECTION ------*/
+#atencion-al-cliente-section{
+    padding: 30px 0;
+}
+#atencion-al-cliente-div-left{
+    margin-right: 40px;
+    float: right;
+}
+#atencion-al-cliente-div-right{
+    margin-left: 40px;
+}
+.atencion-al-cliente-title{
+    text-align: left;
+}
+.atencion-al-cliente-list{
+    padding-left: 0;
+    text-align: left;
+}
+.atencion-al-cliente-item{
+    font-family: ScoutLight;
+    margin-top: 10px;
+}
+/*------ /ATENCION AL CLIENTE SECTION ------*/
+/*------ MEDIA QUERY ------*/
+@media (min-width:768px){
+	 .nav.navbar-nav {
+	     float: left;
+	 }
+	 .nav.navbar-nav {
+	     clear: left;
+	     float: left;
+	     margin: 0;
+	     padding: 0;
+	     position: relative;
+	     left: 50%;
+	     text-align: center;
+	 }
+	 .nav.navbar-nav > li {
+	     position: relative;
+	     right: 50%;
+	 }
+	 .nav.navbar-nav li {
+	    text-align: left
+	 }
+     .slider-item{
+         height: 480px;
+     }
+}
+@media only screen and (min-width: 1200px){
+	.container{
+		width: 1200px;
+	}
+}
+@media (max-width:768px){
+	#navbar-title{
+		display: none;
+	}
+	#navbar-sm-title{
+		display: block;
+	}
+    #atencion-al-cliente-div-left{
+        float: none;
+        margin: auto;
+    }
+    #atencion-al-cliente-div-right{
+        float: none;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .atencion-al-cliente-title,.atencion-al-cliente-list{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 992px){
+	#navbar-top-list{
+		float: left;
+		padding-left: 0;
+	}
+	.page-scroll{
+		margin:auto;
+	}
+    .big-product-photo-containter{
+        padding: 0;
+    }
+    #big-female-watch-photo{
+        height: 260px;
+    }
+    .social-media-photo{
+        margin-top: 30px;
+    }
+}
+@media (min-width:768px) and (max-width:992px) {
+    #home-section {
+        margin-top: 52px;
+    }
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .product-text{
+        position: relative;
+        left: 25px;
+    }
+}
+/*------ /MEDIA QUERY ------*/
